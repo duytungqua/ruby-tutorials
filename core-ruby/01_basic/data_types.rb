@@ -20,5 +20,7 @@ puts person[:name]
 range = (1..10)
 puts range.to_a
 # Symbol
-
+puts :key
+:key = :value
+puts :key
 # nil
