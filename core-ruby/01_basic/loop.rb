@@ -25,3 +25,9 @@ fruit = ["a", "b", "c"]
 fruit.each do |f|
   puts f
 end
+
+#times loop, excute a block of code a specific number of times
+5.times do |i|
+  puts "This is iteration number #{i + 1}"
+end
+
