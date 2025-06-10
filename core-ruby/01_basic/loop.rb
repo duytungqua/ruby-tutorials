@@ -31,3 +31,8 @@ end
   puts "This is iteration number #{i + 1}"
 end
 
+#times loop with array 
+fruits = ["apple", "banana", "cherry"]
+fruits.each_with_index do |fruit, index|
+  puts "#{index + 1}. #{fruit}"
+end
