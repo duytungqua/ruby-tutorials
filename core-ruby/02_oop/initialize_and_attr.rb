@@ -33,3 +33,5 @@ p.greet
 #    @age = age
 #  end
 #end
+# This allows you to read and write the attributes directly.
+# Example of using attr_accessor
