@@ -9,7 +9,6 @@ dog.bark # Output: Woof!
 
 # Class with attributes and methods (@ prefix is instance variable)
 class Person 
-
   def initial(name, age)
     @name = name
     @age = age
@@ -21,4 +20,5 @@ end
 
 p = Person.new
 p.initial("Duy", 30)
+puts p.name
 p.greet # Output: Hello Duy, you are 30 years old.
