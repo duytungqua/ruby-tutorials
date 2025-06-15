@@ -41,3 +41,5 @@ p.greet # Output: Hello John, you are 30 years old.
 p.display_info # Output: Name: John, Age: 30
 p2 = Person.new("Jane", 25)
 p.compare_names(p2) # This will compare the names of p and p2 using the protected method
+
+# p.secret # This will raise an error because secret is a private method and cannot be called outside the class.
