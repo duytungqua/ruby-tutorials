@@ -11,4 +11,7 @@ fruits.each_with_index do |fruit, index|
   puts "#{index}: #{fruit}"
 end
 
-
+person = {name : "Duy", age: 30, city: "Hanoi"}
+puts person[:name]
+person[:age] = 31
+puts person[:age]  # Output: 31
