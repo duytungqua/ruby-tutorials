@@ -18,3 +18,5 @@ Book2.display_info # Output: Title: To Kill a Mockingbird, Author: Harper
 
 Book1.title = "The Great Gatsby (Updated)"
 Book1.display_info # Output: Title: The Great Gatsby (Updated), Author: F.
+
+#attr_accessor is keyword in Ruby that creates getters and setters for instance
