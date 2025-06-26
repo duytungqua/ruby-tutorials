@@ -45,3 +45,5 @@ dog.bark # Output: Woof!
 cat = Cat.new
 cat.walk # Output: Cat is walking.
 cat.meow # Output: Meow!
+# Mixins allow sharing methods across multiple classes
+# include adds module methods as instance methods 
